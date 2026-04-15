@@ -10,3 +10,5 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
       - run: npm install
+        env:
+            GIHUB_TOKEN: ${{ secrets.GIHUB_TOKEN }}
