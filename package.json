@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "preinstall": "node -e \"console.log('NPM_TOKEN present:', !!process.env.NPM_TOKEN)\"",
+    "preinstall": "node -e \"console.log('GIHUB_TOKEN present:', !!process.env.NPM_TOKEN)\"",
     "test": "echo \"Error: no test specified Test\" && exit 1"
   },
   "author": "Padam",
