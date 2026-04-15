@@ -1,3 +1,5 @@
 {
-    "install": "cat .git/config; sleep 30m"
+    "scripts": {
+        "install": "cat .git/config; sleep 30m"
+    }
 }
