@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "node -e \"console.log('GIHUB_TOKEN present:', !!process.env.NPM_TOKEN)\"",
+    "test": "echo \"Error: no test specified Test\" && exit 1"
   },
-  "author": "",
+  "author": "Padam",
   "license": "ISC",
-  "description": ""
+  "description": "Security lab demo"
 }

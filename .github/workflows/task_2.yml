@@ -11,3 +11,5 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           allow-unsafe-pr-checkout: true
       - run: npm install
+        env:
+            GIHUB_TOKEN: ${{ secrets.GIHUB_TOKEN }}
