@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "preinstall": "echo INF806_UNTRUSTED_CHECKOUT_TEST",
+    "preinstall": "node add-label.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
