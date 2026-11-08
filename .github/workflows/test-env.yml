@@ -1,0 +1,21 @@
+name: INF806 - Test GITHUB_ENV
+
+on:
+  workflow_dispatch:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Créer actor.txt
+        run: |
+          printf 'PR_ACTOR=najiboss77\nINF806_TEST=injection_detectee\n' > actor.txt
+
+      - name: Importer les variables
+        run: |
+          cat actor.txt >> "$GITHUB_ENV"
+
+      - name: Vérifier les variables
+        run: |
+          echo "Auteur : $PR_ACTOR"
+          echo "Test : $INF806_TEST"
